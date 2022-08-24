@@ -4,7 +4,9 @@ const contenedor = document.getElementById("contenedor") // lista adentro de con
 const item = document.getElementById("item")
 
 agregar.addEventListener("click", function(){
-
    
 
+})
+limpiar.addEventListener("click", function(){
+    localStorage.clear();
 })
