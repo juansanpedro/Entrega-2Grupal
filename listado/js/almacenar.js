@@ -4,14 +4,17 @@ const contenedor = document.getElementById("contenedor") // lista adentro de con
 const item = document.getElementById("item")
 
 agregar.addEventListener("click", function(){
-   
+    if (item.value) localStorage.setItem("text", item.value);
+   listado()
 
 })
 limpiar.addEventListener("click", function(){
     localStorage.clear();
 })
 
-//let htmlContentToAppend = ""
-// htmlcontenttoappend+= ``
 
-// contenedor.innerHTML=htmlcontenttoappend
+function listado(){
+let htmlContentToAppend = " "
+htmlcontenttoappend+= `text`
+
+contenedor.innerHTML=htmlcontenttoappend}
