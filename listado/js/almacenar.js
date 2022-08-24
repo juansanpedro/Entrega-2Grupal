@@ -10,3 +10,8 @@ agregar.addEventListener("click", function(){
 limpiar.addEventListener("click", function(){
     localStorage.clear();
 })
+
+//let htmlContentToAppend = ""
+// htmlcontenttoappend+= ``
+
+// contenedor.innerHTML=htmlcontenttoappend
