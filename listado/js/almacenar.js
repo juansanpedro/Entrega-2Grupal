@@ -5,7 +5,7 @@ const item = document.getElementById("item")
 
 agregar.addEventListener("click", function(){
     if (item.value) localStorage.setItem("text", item.value);
-   listado()
+    listado();
 
 })
 limpiar.addEventListener("click", function(){
@@ -14,7 +14,6 @@ limpiar.addEventListener("click", function(){
 
 
 function listado(){
-let htmlContentToAppend = " "
-htmlcontenttoappend+= `text`
+contenedor.innerHTML += item.value;
 
-listado.innerHTML= htmlcontenttoappend}
+}
