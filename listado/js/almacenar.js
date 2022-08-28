@@ -9,7 +9,7 @@ agregar.addEventListener("click", function(){
 
 })
 limpiar.addEventListener("click", function(){
-    localStorage.clear();
+    localStorage.clear(contenedor);
 })
 
 function listado(){
