@@ -12,8 +12,6 @@ limpiar.addEventListener("click", function(){
     localStorage.clear();
 })
 
-
 function listado(){
-contenedor.innerHTML += item.value;
-
+contenedor.innerHTML += `<p>${item.value}</p>`; 
 }
