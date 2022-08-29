@@ -10,9 +10,10 @@ agregar.addEventListener("click", function(){
 
 })
 limpiar.addEventListener("click", function(){
-    localStorage.removeItem(contenedor);
+    localStorage.removeItem("text");
 })
 
 function listado(){
 contenedor.innerHTML += `<p>${item.value}</p>`; 
+
 }
