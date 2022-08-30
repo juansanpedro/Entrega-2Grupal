@@ -3,7 +3,6 @@ const limpiar = document.getElementById("limpiar")
 const contenedor = document.getElementById("contenedor") // lista adentro de contenedor
 const item = document.getElementById("item")
 
-
 agregar.addEventListener("click", function(){
     if (item.value) localStorage.setItem("text", item.value);
     listado();
@@ -11,6 +10,7 @@ agregar.addEventListener("click", function(){
 })
 limpiar.addEventListener("click", function(){
     localStorage.removeItem("text");
+    contenedor.innerHTML = ""
 })
 
 function listado(){
