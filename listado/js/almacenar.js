@@ -17,7 +17,7 @@ limpiar.addEventListener("click", function () {
 function listado() {
   if (item.value.length);
   contenedor.innerHTML += `<p>${item.value}</p>`;
-  array.push (item.value ("<br></br>"));
+  array.push (`<p>${item.value}</p>`);
   console.log(array);
   localStorage.setItem("array", JSON.stringify(array));
 }
