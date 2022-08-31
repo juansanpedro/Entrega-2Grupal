@@ -5,9 +5,6 @@ const item = document.getElementById("item");
 let array = [];
 
 agregar.addEventListener("click", function () {
-  if (item.value.length === undefined){
-    return alert("ingrese")
-  } else
   listado();
   item.value = "";
 });
